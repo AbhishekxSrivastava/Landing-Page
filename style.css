@@ -1,0 +1,83 @@
+body{
+    background-image: url('White_Background.png')
+}
+#header{
+    margin: -40px -10px 0px -10px;
+    padding: 3px 20px 3px 20px;
+    background-color: rgb(249, 252, 254);
+}
+#title{
+    color:rgb(42, 69, 178);
+    margin: 50px 0px 0px 10px;
+    font-weight: 10;
+    font-size:small;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+ul{
+    list-style-type:none;
+    float:right;
+    margin:-53px 50px 0px 0px;
+}
+li{
+    display:inline;
+}
+a{
+    display:inline;
+    padding:15px;
+    text-decoration: none;
+    color:rgb(54, 73, 218);
+    background: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{
+    color: rgb(60, 184, 246);
+}
+
+select{
+    border:none;
+    color:rgb(54, 73, 218);
+}
+button{
+    padding:10px 15px;
+    border-radius: 8px;
+    margin:0px 0px 0px 15px;
+    border:none;
+    cursor:pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    background-color: rgb(60, 184, 246);
+}
+
+.blue{
+    background-color:rgb(2, 147, 220);
+    color:white;
+}
+
+#Center{
+    margin-top:100px;
+    font-size:large;
+    text-align: center;
+    color:rgb(21, 38, 104);
+    font-weight: 900;
+    font-size:xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#subCenter{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top:-30px;
+    font-size:large;
+}
+
+#centerbutton{
+    text-align: center;
+    padding:20px 25px;
+
+}
+.subBlue{
+    background-color:rgb(2, 147, 220);
+    color:white;
+    padding:15px 30px;
+}
